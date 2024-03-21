@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="header" class="header">
+        <nav>
+            <h2 >Hathisa <span>Thissara</span></h2>
+            <ul id="navigation">
+                <li><a href="#home" class="active-tab">Home</a></li>
+                <li><a href="#about" >About</a></li>
+                <li><a href="#services" >Services</a></li>
+                <li><a href="#portfolio" >My Work</a></li>
+                <li><a href="#contact" >Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="home" class="home">
+        
+        <div class="container">
+            <div class="home-text">
+                <h2>Hi i'm <span>Hathisa Thissara</h2>
+                <h1>I'am a <span></span></h1>
+                
+            </div>
+            <a href="#" class="btn2">Hire Me</a>
+        </div>
+    </div>
+
+    <div class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/profile.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-tittle">About me</h1>
+                    <p>Hey I'm a problem-solving software engineer and web developer,turning ideas into reality with code.</p>
+                    <div class="tab-tittles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links">Experience</p>
+                    </div>
+                    <div class="table-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/Ux</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web/app Developer</li>
+                            <li><span>App Development</span><br>Building android&ios Apps</li>
+                            <li><span>Software Development</span><br>Building a Software</li>
+                        </ul>
+                    </div>
+                    <div class="table-contents" id="experience" style="display: none;">
+                        <ul>
+                            <li><span>2024-Current</span><br>Following ICT Diploma </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="services" id="services">
+        <div class="container">
+            <h1 class="sub-tittle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa fa-code" aria-hidden="true"></i>
+                    <h2>Web Develpoment</h2>
+                    <p>Designing and developing websites as per your requirement.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa fa-crop" aria-hidden="true"></i>
+                    <h2>UI/UX</h2>
+                    <p>Designing user interfaces and UX as per your requirement.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa fa-crosshairs" aria-hidden="true"></i>
+                    <h2>Software Develpoment</h2>
+                    <p>Designing and developing softwares as per your requirement.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="portfolio" class="portfolio">
+        <div class="container">
+            <h1 class="sub-tittle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="https://images.pexels.com/photos/943096/pexels-photo-943096.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        alt="">
+                    <div class="layer">
+                        <h3>Social media app</h3>
+                        <p>Sharing platforms: These apps allow users to share text, photos, and videos with their
+                            followers. Examples include Instagram, Facebook, and Twitter.
+                            Messaging apps: These apps focus on private communication between individuals or groups.
+                            Examples include WhatsApp and Messenger.
+                            Discussion forums: These apps allow users to connect and discuss topics of interest.
+                            Examples include Reddit and Discord.
+                            Video sharing apps: These apps focus on sharing short or long-form videos. Examples include
+                            TikTok and YouTube.</p>
+                        <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://images.pexels.com/photos/968639/pexels-photo-968639.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        alt="">
+                    <div class="layer">
+                        <h3>Tech app</h3>
+                        <p>Application (shortened to app): This is the most common meaning. An app is a self-contained
+                            software program designed for a specific task on a mobile device (like a smartphone or
+                            tablet) or computer. They are downloaded from app stores like the Apple App Store or Google
+                            Play Store.
+
+                            Technology application: In a broader sense, "tech app" could refer to any software
+                            application used in technology. This would encompass both mobile apps and traditional
+                            desktop software programs.</p>
+                        <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://images.pexels.com/photos/289927/pexels-photo-289927.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        alt="">
+                    <div class="layer">
+                        <h3>Coding app</h3>
+                        <p>An app for writing code: In this case, a coding app short meaning could simply be "code
+                            editor" or "IDE" (Integrated Development Environment). These apps provide tools for writing,
+                            editing, and debugging code.
+                            An app that teaches coding: Here, a short meaning could be "coding tutorial app" or "learn
+                            to code app". These apps offer interactive lessons and exercises to help users learn
+                            programming languages.</p>
+                        <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a class="btn" href="#">See more</a>
+        </div>
+    </div>
+
+    <div id="contact" class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-tittle">Contact</h1>
+                    <p><i class="fa fa-paper-plane" aria-hidden="true"></i>hatheesha6504@gmail.com</p>
+                    <p><i class="fa fa-phone" aria-hidden="true"></i>+9470 120 7991</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/hatheesha.thissara.18" class="fab fa-facebook-square"></a>
+                        <a href="https://www.instagram.com/hathisa_thissara/" class="fab fa-instagram-square"></a>
+                        <a href="https://www.twitter.com" class="fab fa-twitter-square"></a>
+                        <a href="https://www.linkedin.com" class="fab fa-linkedin"></a>
+                        <a href="https://www.WhatsApp.com" class="fab fa-whatsapp-square"></a>
+
+                    </div>
+                    <a href="#" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right"></div>
+                <form>
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <textarea name="nmessege" rows="6" placeholder="Your Messege"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="copy-right">
+            <p>© Hathisa Thissara|All Right Reserved</p>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+
+</html>

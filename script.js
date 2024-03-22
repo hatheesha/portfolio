@@ -2,14 +2,14 @@ var tablinks = document.getElementsByClassName("tab-links");
 var tabcontents = document.getElementsByClassName("table-contents");
 
 for (var i = 0; i < tablinks.length; i++) {
-    tablinks[i].addEventListener('click', function() {
+    tablinks[i].addEventListener('click', function () {
         var tabname = this.innerText.toLowerCase().trim();
         for (var j = 0; j < tabcontents.length; j++) {
             tabcontents[j].style.display = "none";
             if (tabcontents[j].id === tabname) {
                 tabcontents[j].style.display = "block";
             }
-        } 
+        }
         for (var k = 0; k < tablinks.length; k++) {
             tablinks[k].classList.remove("active-link");
         }
@@ -18,7 +18,7 @@ for (var i = 0; i < tablinks.length; i++) {
 }
 
 const dynamicText = document.querySelector("h1 span");
-const words = ["Software Engineer", "Web Developer", "UI/UX Designer","Content Creator"];
+const words = ["Software Engineer", "Web Developer", "UI/UX Designer", "Content Creator"];
 // Variables to track the position and deletion status of the word
 let wordIndex = 0;
 let charIndex = 0;

@@ -23,15 +23,18 @@ body {
     justify-content: space-between;
     text-transform: uppercase;
 }
-.logo{
+
+.logo {
     width: 200px;
     height: 25px;
     cursor: pointer;
     transition: 0.3s ease-in-out;
 }
-.logo:hover{
+
+.logo:hover {
     transform: scale(1.1);
 }
+
 .home {
     width: 100%;
     height: 100vh;

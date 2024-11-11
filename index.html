@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="header" class="header">
+        <div>
+            <a href="#home" class="logo">
+                <img src="images/logo.png" alt="logo">
+            </a>
+        </div>
+        <nav>
+            <button class="menu-toggle" aria-label="Toggle Navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul id="navigation">
+                <li><a href="#home" class="active-tab">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">My Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="home">
+        <div class="container">
+            <div class="home-text">
+                <h2>Hi, I'm <span>Hathisa Thissara</span></h2>
+                <h1>I’m a <span></span></h1>
+            </div>
+            <a href="#" class="btn2">Hire Me</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/FB_IMG_1724853380935.jpg" alt="Profile Picture">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Hey,I'm a passionate web developer with a strong foundation in HTML, CSS, JavaScript, and various
+                        frameworks. I'm dedicated to creating user-friendly and visually appealing websites that meet my
+                        clients' needs. I'm always eager to learn new technologies and keep my skills sharp.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    </div>
+                    <div class="table-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web/App Developer</li>
+                            <li><span>App Development</span><br>Building Android & iOS Apps</li>
+                            <li><span>Software Development</span><br>Building Software</li>
+                        </ul>
+                    </div>
+                    <div class="table-contents" id="experience" style="display: none;">
+                        <ul>
+                            <li><span>2024-Current</span><br>Following ICT Diploma</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Designing and developing websites as per your requirements.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa fa-crop"></i>
+                    <h2>UI/UX</h2>
+                    <p>Designing user interfaces and experiences to enhance usability.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa fa-crosshairs"></i>
+                    <h2>Software Development</h2>
+                    <p>Designing and developing software tailored to your needs.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="https://images.pexels.com/photos/943096/pexels-photo-943096.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Social Media App">
+                    <div class="layer">
+                        <h3>Web page</h3>
+                        <p>A platform for sharing, messaging, and connecting.</p>
+                        <a href="https://hatheesha.github.io/cbl-/"><i class="fa fa-external-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://images.pexels.com/photos/968639/pexels-photo-968639.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Tech App">
+                    <div class="layer">
+                        <h3>Tech App</h3>
+                        <p>Apps designed for specific tasks on mobile or desktop.</p>
+                        <a href="#"><i class="fa fa-external-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://images.pexels.com/photos/289927/pexels-photo-289927.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Coding App">
+                    <div class="layer">
+                        <h3>Coding App</h3>
+                        <p>An app for writing, editing, and learning code.</p>
+                        <a href="#"><i class="fa fa-external-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a class="btn" href="#">See more</a>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact</h1>
+                    <p><i class="fa fa-paper-plane"></i>hatheesha6504@gmail.com</p>
+                    <p><i class="fa fa-phone"></i>+9470 120 7991</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/hatheesha.thissara.18" class="fab fa-facebook-square"></a>
+                        <a href="https://www.instagram.com/hathisa_thissara/" class="fab fa-instagram-square"></a>
+                        <a href="https://x.com/HathisaThissara" class="fab fa-twitter-square"></a>
+                        <a href="https://www.linkedin.com" class="fab fa-linkedin"></a>
+                        <a href="https://www.WhatsApp.com" class="fab fa-whatsapp-square"></a>
+                    </div>
+                    <a href="#" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="copy-right">
+        <p>© Hathisa Thissara | All Rights Reserved</p>
+    </footer>
+    
+    <script src="script.js" defer></script>
+</body>
+
+</html>
